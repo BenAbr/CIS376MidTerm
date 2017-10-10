@@ -1,0 +1,52 @@
+body {
+  background-color: #333333;
+  margin: 10px;
+  padding: 0px;
+  border: none;
+}
+#everything, #content, #friendlink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+#TopPage {
+  color: #a3faff;
+  text-shadow: 6px 6px #232323;
+}
+#first, #second, #third, #fourth {
+  margin: 10px;
+  padding: 80px;
+  border-radius: 5px 20px;
+  text-decoration: none;
+}
+#first:hover, #second:hover, #third:hover, #fourth:hover, #friendlink:hover {
+  background-color: #232323;
+}
+#items {
+  display: flex;
+}
+#first {
+  color: #ffa43d;
+  border: solid 0.5px #ffa43d;
+}
+#second {
+  color: #0ff1ff;
+  border: solid 0.5px #0ff1ff;
+}
+#third {
+  color: #63ff44;
+  border: solid 0.5px #63ff44;
+}
+#fourth {
+  color: #fffb3d;
+  border: solid 0.5px #fffb3d;
+}
+#friendlink {
+  margin: 20px;
+  color: #ff2626; 
+  text-decoration: none;
+  border: solid 0.5px #ff2626;
+  border-radius: 20px 5px;
+  padding: 10px;
+}
