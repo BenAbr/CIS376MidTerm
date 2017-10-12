@@ -4,7 +4,7 @@ body {
   padding: 0px;
   border: none;
 }
-#everything, #content, #friendlink {
+#everything, #content, #friendlink1, #friendlink2 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@ body {
   border-radius: 5px 20px;
   text-decoration: none;
 }
-#first:hover, #second:hover, #third:hover, #fourth:hover, #friendlink:hover {
+#first:hover, #second:hover, #third:hover, #fourth:hover, #friendlink1:hover, #friendlink2:hover {
   background-color: #232323;
 }
 #items {
@@ -42,7 +42,7 @@ body {
   color: #fffb3d;
   border: solid 0.5px #fffb3d;
 }
-#friendlink {
+#friendlink1, #friendlink2 {
   margin: 20px;
   color: #ff2626; 
   text-decoration: none;
